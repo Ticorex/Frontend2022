@@ -44,12 +44,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   <img src="readme-images/bershkascreen1.jpg" width="375px" alt="omschrijving van de pagina">
   
-  Bershka home screen
+  
+ Bershka home screen
   
    <img src="readme-images/bershkascreen1_2.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Bershka jassen selectie
+  
   <img src="readme-images/Bershkascreen2.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
