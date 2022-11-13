@@ -40,15 +40,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  https://www.bershka.com/nl/dames/kleding/jassen-c1010240019.html
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Bershka selectie screen 1 
+  Bershka selectie screen 1
+  
   <img src="readme-images/bershkascreen1.jpg" width="375px" alt="omschrijving van de pagina">
   
   Bershka home screen
+  
    <img src="readme-images/bershkascreen1_2.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Bershka jassen selectie
-  <img src="readme-images/bershkascreen2.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/Bershkascreen2.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
