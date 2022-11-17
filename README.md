@@ -61,33 +61,39 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-  <summary>uitwerken na test in 1e werkgroep</summary>
+  <summary>De responsiveness van de site is slecht. De extra tools die verschijnen om mensen met disabilities te helpen zorgen ervoor dat de hele site breekt. Het hele scherm wordt grijs, het menu werkt niet goed meer en de site doet eigenlijk gewoon niks meer. Sommige dingen zijn wel goed gelinkt, zoals het bershka logo. Dit wordt opgenoemd als "Bershka logo, back to homepage". Maar het meeste is niet goed bruikbaar voor iemand die een narrator gebruikt. Zo zijn alt descriptions hetzelfde als de omschrijving die onder plaatjes staan, en worden alle html woorden constant in het rond geslingerd. </summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  - De site is zonder zicht zeer slecht te navigeren.
+  - Veel dingen zijn niet goed gelabeld.
+  - Veel dingen staan klein en op elkaar, dus voor mensen die bijvoorbeeld parkisons hebben is het heel moeilijk om de site te navigeren. Ook zorgt dit ervoor dat   dingen snel onleesbaar worden als je zicht slechter is.
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+Het is moeilijk te navigeren, veel dingen zijn slecht gelabeld.
+Daarnaast breken de extra support tools de hele site.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+Het is makkelijk om de html elementen de juiste namen en dat soort dingen te geven zodat de screen reader het niet fout afleest. Maar het feit dat de screen reader tools de site breken is niet makkelijk fix baar, want ik snap niet waarom dit gebeurt. 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+De tab navigatie selecteert dingen die niet te zien zijn. Ook is de selector niet super duidelijk. Daarnaast is de volgorde waarin de tabselectie gaat niet super logisch, zo gaat het soms menus in die nog niet geopend zijn inplaats van naar de volgende item in het navigatie menu.
+
+Een oplossing zou zijn de code semantisch correct maken. 
+
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+De site is opzich prima navigeerbaar met de elastiekjes, maar veel dingen staan wel dicht op elkaar. Met de schokken maat dit het heel moeilijk om de site te navigeren.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+Een makkelijke oplossing zou zijn om alle menutjes gewoon wat grooter te maken. De hoofd menus zijn dit al, maar de sub-menutjes zijn super klein. Geef ze gewoon wat meer ruimte, en ook maar direct wat meer letter grootte. Lost ook meteen het volgende probleem op:
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+Met een visuele beperking zijn alle kleinere menus al heel snel onleesbaar. De darktheme van de site werkt wel prima en er is ook genoeg contrast voor kleure blinde mensen.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+De menus moeten gewoon wat groter gemaakt worden.
+
+Achteraf blijkt dat de site op telefoon en het vormaat " telefoon" op computer compleet verschillend zijn. Dit en dat de support tools de site breken hebben ervoor gezorgd dat ik maar van site ben verandert (op 17/11/2022).
 
 </details>
 
