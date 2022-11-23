@@ -1,0 +1,22 @@
+/*--bgcolor:  color: darkgray;
+--bgcolor2: color: black; */
+
+header{
+    /*background-color:var(--bgcolor); */
+    background-color: dimgray;
+    
+}
+
+main{
+    /*background-color: var(--bgcolor2);*/
+    background-color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+ul nth-of-type(1) li{
+    background-color: gainsboro;
+    
+}
