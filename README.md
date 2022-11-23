@@ -105,7 +105,7 @@ Achteraf blijkt dat de site op telefoon en het vormaat " telefoon" op computer c
   <summary>Ik ben van site overgestapt naar de site 'https://mangasee123.com'.</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/mangaseebreakdownschets.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/mangaseebreakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
