@@ -122,7 +122,7 @@ Achteraf blijkt dat de site op telefoon en het vormaat " telefoon" op computer c
 ## Voortgang 1 (week 2)
 
 <details>
-  <summary>uitwerken voor 1e voortgang</summary>
+  <summary>Ik ben begonnen aan ede html van mjn site uitschrijven. Opzich denk ik dat dit wel goed gelukt is, maar ik ga het in de meeting nog laten checken.De CSS il nog niet echt lukken dus ik ben vanplan de student assistenten hier later mee lastig te vallen.</summary>
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
@@ -131,10 +131,10 @@ Achteraf blijkt dat de site op telefoon en het vormaat " telefoon" op computer c
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  Tico     | student 2          | student 3    | student 4        |
+  | html checken        | html checken                | html checken          | html checken             |
+  |   | en dit             | en ik dit    | en dan ik dat    |
+  |  | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
