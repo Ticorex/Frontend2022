@@ -130,11 +130,11 @@ Achteraf blijkt dat de site op telefoon en het vormaat " telefoon" op computer c
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Tico           | Naomi              | Kars         | Brett            |
+  | html           | html               | html         | html             |
+  | css?           | fouten?            |              | breakdownschets  |
+  |                |                    |              |                  |
+  |                |                    |              |                  |
 
 
 
