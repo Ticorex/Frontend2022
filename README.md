@@ -122,21 +122,173 @@ Achteraf blijkt dat de site op telefoon en het vormaat " telefoon" op computer c
 ## Voortgang 1 (week 2)
 
 <details>
-  <summary>Ik ben begonnen aan ede html van mjn site uitschrijven. Opzich denk ik dat dit wel goed gelukt is, maar ik ga het in de meeting nog laten checken.De CSS il nog niet echt lukken dus ik ben vanplan de student assistenten hier later mee lastig te vallen.</summary>
+  <summary>Ik ben begonnen aan de html van mjn site uitschrijven. Opzich denk ik dat dit wel goed gelukt is, maar ik ga het in de meeting nog laten checken.De CSS il nog niet echt lukken dus ik ben vanplan de student assistenten hier later mee lastig te vallen.</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Wat ging goed?
+  Ik vind het leuk om hie raan te werken, maar er is nog niet super veel goed gegaan moet ik zeggen.
+  
+  Wat ging minder?
+  Ondanks de opdrachten te hebben gedaan en de code terugbeken te hebben kom ik niet uit de css. De header wil niet met flexbox staan zoals ik wil, de articles   waar ik dan weer grid voor gebruik vallen niet mooi binnen een blokje. Ik snap er niks van. Ik moet maar in het gesprek later het er even over hebben (of      studentassistenten na afloop vragen).
+     
+  Hier de html, css en hoe het eruit ziet:
+  <details>
 
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/mangasee.css">
+</head>
+
+<body>
+    
+     <!--header waar in het logo, de zoek balk en het navigatie menu moeten zitten -->
+    <header>
+         <img src="../images/logoms.png" alt="The Mangasee logo, depicting the word Manga in white and the word See in blue">
+         <input type="text" placeholder="Quick Search.." >
+         
+      
+        <ul>
+             <li>
+                 <a href="../basiswebsite/indexmangasee.html" ><img src="../images/homeicon.png" alt="Home button"></a>
+             </li>
+             <li>
+                 <img src="../images/">
+             </li>
+             <li>
+                  <img src="../images/zoekicon.png" alt="Zoek knop">
+             </li>
+             <li>
+                 <img src="../images/">
+             </li>
+             <li>
+                 <p>Login</p>
+             </li>
+         </ul>
+        
+    </header>
+ 
+    <main>
+        <img src="../images/berserk.jpg" alt="promotional art for the manga Berserk">
+        
+         <ul>
+            
+            <li>
+             <h3>Hot Update</h3> <h3>more >></h3>
+            </li>
+             
+            <li>
+                 <article>
+                     <img src="../images/Kengan-Omega.jpg" width= "200px">
+                     <h4>Kengan Omega</h4>
+                     <p> Chapter 185</p>
+                     <p> 3 hours ago</p>
+                 </article>
+                 
+            </li>
+            
+             <li>
+                 <article>
+                     <img src="../images/Kengan-Omega.jpg">
+                     <h4>Kengan Omega</h4>
+                     <p> Chapter 185</p>
+                     <p> 3 hours ago</p>
+                 </article>
+                 
+            </li>
+         </ul> 
+    </main>
+    
+    
+    
+</body>
+</html>
+ 
+ Dan de css:
+/*--bgcolor:  color: darkgray;
+--bgcolor2: color: black; */
+/* */
+header{
+    /*background-color:var(--bgcolor); */
+    background-color: dimgray;
+    
+}
+
+main{
+    /*background-color: var(--bgcolor2);*/
+    /*background-color: black;*/
+}
+
+main:nth-of-type(1) a{
+/* om plaatje te positioneren ater */
+}
+
+
+/* the top nav */
+/* makes it so the nav menu doesnt have those dots */
+ul{
+    list-style: none;
+    display: flex;
+}
+
+ul:nth-of-type(1) li{
+    flex-grow: 1;
+}
+
+
+/* The articles */
+
+main ul{
+        list-style:none; 
+        background-color: darkgrey;
+}
+
+main:nth-of-type(1) li{
+    
+}
+
+li article{
+    background-color: white;
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1em;
+}
+
+article img{
+  grid-row-start:1;
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+
+article h4{
+    color: blueviolet;
+  grid-row-start:1;
+  grid-column-start: 2;
+}
+
+article:nth-child(1) p{
+  grid-row:2;
+  grid-column-start: 2;
+}
+
+article:nth-child(2) p{
+  grid-row-start:3;
+  grid-column-start: 2;
+}
+
+en hoe het eruit ziet:
+  <img src="readme-images/horrorcss.jpg" width="375px" alt="lelijke site waar niks van de layout klopt">
+ </details>
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-  | Tico           | Naomi              | Kars         | Brett            |
-  | html           | html               | html         | html             |
-  | css?           | fouten?            |              | breakdownschets  |
-  |                |                    |              |                  |
-  |                |                    |              |                  |
-
-
+ 1. Tico - html checken, misschien nog css hulp???
+ 2. Naomi - html checken, fouten eruit halen
+ 3. Kars - html checken
+ 4. Brett - html checken, breakdown schets doornemen
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
