@@ -16,12 +16,10 @@ button, summary {
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
-:root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
-}
-
+:root{
+	--bgcolor: #3B3331;
+	--bgcolor2: black; 
+	}
 
 
 
@@ -31,4 +29,127 @@ button, summary {
 /****************/
 
 /* jouw code */
-
+	
+	header{
+		background-color:var(--bgcolor);
+		position:sticky;
+		top:0;
+		
+		display:flex;
+		justify-content:space-between;
+		
+	
+	}
+	
+	body{
+	  position: relative;
+	  background-color: var(--bgcolor2);
+	}
+	
+	main{
+		
+		margin: 0px 15px
+	}
+	
+	main:nth-of-type(1) a{
+	display: flex;
+	justify-content: center;
+	}
+	
+	
+	/* the top nav */
+	/* makes it so the nav menu doesnt have those dots */
+	nav{
+	
+	}
+	
+	ul{
+		list-style: none;
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	ul:nth-of-type(1) li{
+		
+	}
+	
+	ul li:nth-of-type(5){
+	  margin-left: auto;
+	
+	}
+	
+	/****************/
+	/* The articles */
+	/****************/
+	
+	main ul{
+			list-style:none; 
+			background-color: white;
+			display:grid;
+			overflow:hidden;
+			
+			
+	}
+	
+	ul > section:nth-oftype(1){
+	  display:flex;
+	}
+	
+	main li{
+		margin: 5px;
+	}
+	
+	li > article{
+	  height: 200px;
+	  width: 300px;
+	}
+	
+	li > article > a{
+		background-color: white;
+		
+		grid-template-rows: 50px 1em 1em;
+		grid-template-columns: 1fr 2fr;
+		grid-gap: 1em;
+	}
+	
+	h3{
+	  padding: auto;
+	  background-color:#1C689B;
+	  color: white;
+	}
+	
+	article {
+	  height: 150px;
+	  width: 300px;
+	}
+	
+	article img{
+	  grid-row-start:1;
+	  grid-column-start: 1;
+	  grid-column-end: -1;
+	  height: 175px;
+	  width: 100px;
+	  object-fit: contain;
+	}
+	
+	article h4{
+	  color: blueviolet;
+	  grid-row-start:1;
+	  grid-column-start: 2;
+	}
+	
+	article section{
+	  background-color: darkgray;
+	}
+	
+	article:nth-child(1) p{
+	  grid-row:2;
+	  grid-column-start: 2;
+	}
+	
+	article:nth-child(2) p{
+	  grid-row-start:3;
+	  grid-column-start: 2;
+	}
+	
+	
