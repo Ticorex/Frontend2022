@@ -21,6 +21,8 @@ button, summary {
 :root{
 	--bgcolor: #3B3331;
 	--bgcolor2: black; 
+	--articleheight: 110px;
+	font-family: sans-serif;
 	}
 
 
@@ -36,95 +38,133 @@ body{
 	background-color: black;
 }
 
-/* Css om de header goed te krijgen */
+/* Css om de header (manga logo, search bar, site nav) goed te krijgen */
 
+/* de container van de spullen die in de header staan */
 header{
 	display: flex;
 	background-color: var(--bgcolor);
 	flex-direction:column;
 }
 
-header input{
-	width: 90%;
-	height: 4em;
-	margin:auto;
-	margin-bottom: 5px;
-}
-
+/* Het MangaSee logo*/
 header > img{
 	height: 4em;
 	margin: auto;
 }
 
+/* Het zoekveld */
+header input{
+	width: 90%;
+	height: 4em;
+	margin:auto;
+	margin-bottom: 10px;
+}
+
+/* de container van de navigatie balk */
 header ul{
 	display: flex;
 	list-style:none;
-	background-color: gray;
-
+	background-color: rgb(88, 85, 85);
+	color: white;
 }
 
-
-
+/* de containers/posities van de icoontjes in de nav bar.*/
 nav ul li{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 0.5em 0.5em;
 	margin: 0 5%;
 
-	
+	/* Dit is zodat het plaatje naast de login button niet
+	onder de text gaat staan */
+	display: flex;
 }
+
 
 nav ul li:last-of-type{
 	margin-left: auto;
+	gap: 2px;
+}
+
+nav ul li:nth-of-type(5):before{
+	content:url(../images/login-16.png);
 }
 
 main {
-margin: 0 3%;
+margin: 0 5%;
 }
 
+/* voor dat groote plaatje tussen de header en de hot update tab */
 main > img{
 	width: 100%;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
-section:first-of-type div{
+
+/********************/
+/* Het Hot Update blokje */
+/*deze div code is voor dat blauw en de text daarin bovenop de update list*/
+h3:before {
+	content: url(../images/fire-2-16.png);
+	margin-right: 5px;
+}
+
+div a > p{ 
+	font-weight: 600;
+}
+
+div a > p::after{ 
+	content: url(../images/arrow-31-16.png);
+	position: relative;
+	top: 2px;
+	margin-left: 4px;
+}
+
+section > div{
 display: flex;
 justify-content: space-between;
-background-color: #247d8f;
-padding: 0 0.7em;
+background-color:#247d8f;
 color: white;
 padding: 10px;
 }
 
-main section {
-display: flex;
-flex-direction: column;
+
+/* De container van de manga blokjes*/
+main section ul {
+background-color: white;
+list-style: none;
+padding: 2px 10px;
+padding-bottom: 10px;
 }
 
-main section ul li{
-	display: grid;
-	grid-template-areas: 1 / 1 / 3 / 4;
-	grid-template: 50px 50px 50px / 75px 300px
+/*dit stukje is displayflex om de manga plaatjes en de p'tjes 
+naast elkaar te zetten*/
+main section ul li a{
+	display: flex;
+	margin-top: 20px;
+	background-color: lightgray;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+main section ul li p:nth-of-type(1){
+	color:blue;
+	font-weight: bolder;
 }
 
 section ul li img{
-grid-column: 1 / 2;
-grid-row: 1 / 4;
-height: 100px;
+height: var(--articleheight);
+max-width: 95px;
+aspect-ratio: 1/1;
+object-fit: cover;
+object-position: top;
 }
 
-section ul h4{
-grid-column 2 / 3;
-grid-row: 1 / 2;
+section ul p{
+height: calc(var(--articleheight) / 3); 
+padding-left: 10px;
+padding-top: 5px;
 }
 
-section ul p:nth-of-type(1){
-grid-column: 2 / 3;
-grid-row: 2 / 3
-}
-
-section ul p:nth-of-type(2){
-grid-column: 2 / 3;
-grid-row: 3 / 4;
-}
