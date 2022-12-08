@@ -386,12 +386,10 @@ en hoe het eruit ziet:
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  1. Kars: “Ik wil mijn HTML, CSS doorlopen en vragen wat het beste is om te doen om de vaart erin te houden.”
+  2. Brett: "Ik wil.mijn site globaal scannen."
+  3. Tico: "Ik heb wat vragen over media quiery en wil mijn site doornemen."
+  4. Naomi: "Ik heb nog wat specifieke vragen."
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
