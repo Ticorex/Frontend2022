@@ -292,11 +292,8 @@ en hoe het eruit ziet:
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+ Tijdens de meeting durfde ik mijn werk niet zo goed aan mijn medestudenten te laten zien. Maar uiteindelijk heb ik het er wel gewoon over gehad met de student assistent Sasja.
+ 
 
 </details>
 
