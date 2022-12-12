@@ -126,10 +126,10 @@ Achteraf blijkt dat de site op telefoon en het vormaat " telefoon" op computer c
 
   ### Stand van zaken
   Wat ging goed?
-  Ik vind het leuk om hie raan te werken, maar er is nog niet super veel goed gegaan moet ik zeggen.
+  Ik vind het leuk om hier aan te werken, maar er is nog niet super veel goed gegaan moet ik zeggen.
   
   Wat ging minder?
-  Ondanks de opdrachten te hebben gedaan en de code terugbeken te hebben kom ik niet uit de css. De header wil niet met flexbox staan zoals ik wil, de articles   waar ik dan weer grid voor gebruik vallen niet mooi binnen een blokje. Ik snap er niks van. Ik moet maar in het gesprek later het er even over hebben (of      studentassistenten na afloop vragen).
+  Ondanks de opdrachten te hebben gedaan en de code terugbeken te hebben kom ik niet uit de css. De header wil niet met flexbox staan zoals ik wil, de articles waar ik dan weer grid voor gebruik vallen niet mooi binnen een blokje. Ik snap er niks van. Ik moet maar in het gesprek later het er even over hebben (of      studentassistenten na afloop vragen).
      
   Hier de html, css en hoe het eruit ziet:
   <details>
@@ -316,11 +316,10 @@ en hoe het eruit ziet:
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+1. Kars: "Ik wil kijken naar mijn code en bespreken waar ik sta".
+2. Brett: "Ik wil kijken naar de grid op mijn homepagina want daar kom ik niet helemaal uit".
+3. Tico: " Ik wil mijn html/css even doornemen".
+4. Naomi: " Ik wil vragen wat ik moet doen voor een voldoende".
 
 
   ### Verslag van meeting
@@ -387,7 +386,7 @@ en hoe het eruit ziet:
   samen met je groepje opstellen
 
   1. Kars: “Ik wil mijn HTML, CSS doorlopen en vragen wat het beste is om te doen om de vaart erin te houden.”
-  2. Brett: "Ik wil.mijn site globaal scannen."
+  2. Brett: "Ik wil mijn site globaal scannen."
   3. Tico: "Ik heb wat vragen over media quiery en wil mijn site doornemen."
   4. Naomi: "Ik heb nog wat specifieke vragen."
 
