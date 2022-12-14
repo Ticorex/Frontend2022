@@ -291,9 +291,9 @@ en hoe het eruit ziet:
  4. Brett - html checken, breakdown schets doornemen
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
- Tijdens de meeting durfde ik mijn werk niet zo goed aan mijn medestudenten te laten zien. Maar uiteindelijk heb ik het er wel gewoon over gehad met de student assistent Sasja.
- 
+ Tijdens de meeting durfde ik mijn werk niet zo goed aan mijn medestudenten te laten zien. Maar uiteindelijk heb ik het er wel gewoon over gehad met de student   assistent Sasja. We hebben het even over mijn grids gehad en dat ik hetzelfde kan bereiken met flexbox. Dat ik de images gewoon kan resizes met height/width en misschient met cover in de blokjes kan zetten. Ik heb een aantal artikelen gelinked gekregen:
+ https://krasimirtsonev.com/blog/article/CSS-before-and-after-pseudo-elements-in-practice voor before en after commands om plaatjes voor en na tekst te platen,
+ https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit?retiredLocale=nl en een linkje over objectfit voor de maga plaatjes.
 
 </details>
 
@@ -308,6 +308,9 @@ en hoe het eruit ziet:
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  
+  en hoe het eruit ziet:
+  <img src="readme-images/websitegesprek2.jpg" width="375px" alt="Site waar de blokjes nog erg door elkaar staan">
 
 
   ### Agenda voor meeting
