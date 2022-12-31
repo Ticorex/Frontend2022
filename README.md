@@ -307,11 +307,241 @@ en hoe het eruit ziet:
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Samen met de student assistent Thomas heb ik het voor elkaar gekregen om met flexbox de header in orde te krijgen. Zo staat het logo nu mooi boven aan, met de zoek balk eronder en de navigatie balk daar weer onder mooi in een rijtje. De icoontjes zijn nog niet allemaal in orde maar dat komt nog wel, momenteel ben ik aan het proberen het hot update blokje helemaal mooi te krijgen, want me tot mijn frustratie deze week nogsteed niet wil lukken.
   
-  en hoe het eruit ziet:
+  dit is hoe het eruit ziet:
   <img src="readme-images/websitegesprek2.jpg" width="375px" alt="Site waar de blokjes nog erg door elkaar staan">
 
+  En hier is de html en css
+  <details>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/mangasee.css">
+</head>
+
+<body>
+    
+     <!--header waar in het logo, de zoek balk en het navigatie menu moeten zitten -->
+    <header>      
+        <img src="images/logoms.png" alt="The Mangasee logo, depicting the word Manga in white and the word See in blue">
+        <input type="text" placeholder="Quick Search.." >
+        <nav> 
+        <ul>
+
+             <li>
+                 <a href="basiswebsite/indexmangasee.html" ><img src="images/homeicon.png" alt="Home button"></a>
+             </li>
+        
+             <li>
+                 <a href= >
+                 <img src="images/chat.jpg">
+                 </a>
+             </li>
+             
+             <li>
+                <a>
+                  <img src="images/zoekicon.png" alt="Zoek knop">
+                </a>
+             </li>
+             
+             <li>
+                <a>
+                 <img src="images/chat.jpg">
+                </a>
+             </li>
+             
+             <li>
+                <a>
+                 <p>Login</p>
+                </a>
+             </li>
+         </ul>
+        </nav>
+    
+    </header>
+ 
+ <main>
+        <img src="images/berserk.jpg" alt="promotional art for the manga Berserk">
+        
+     <section>
+
+         <div>
+         <h3>Hot Update</h3> 
+         <a>more</a>
+         </div>
+
+        <ul>
+             
+            <li>
+               
+                    <a href="indexmangasee.html">
+                     <img src="images/Kengan-Omega.jpg">
+                     <section>
+                     <h4>Kengan Omega</h4>
+                     <p> Chapter 185</p>
+                     <p> 3 hours ago</p>
+                     </section>
+                    </a>
+                 
+            </li>
+            <li>
+              
+                   <a href="indexmangasee.html">
+                    <img src="images/Kengan-Omega.jpg">
+                    <section>
+                    <h4>Kengan Omega</h4>
+                    <p> Chapter 185</p>
+                    <p> 3 hours ago</p>
+                    </section>
+                   </a>
+                 
+           </li>
+         
+         </ul>
+     </section>
+
+    </main>
+    
+    
+    
+</body>
+</html>
+    
+ En dan de css:
+    /**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+  margin: 0;
+  padding: 0;
+}
+
+button, summary {
+	cursor: pointer;
+}
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root{
+	--bgcolor: #3B3331;
+	--bgcolor2: black; 
+	}
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+body{
+	background-color: black;
+}
+
+/* Css om de header goed te krijgen */
+
+header{
+	display: flex;
+	background-color: var(--bgcolor);
+	flex-direction:column;
+}
+
+header input{
+	width: 90%;
+	height: 4em;
+	margin:auto;
+	margin-bottom: 5px;
+}
+
+header > img{
+	height: 4em;
+	margin: auto;
+}
+
+header ul{
+	display: flex;
+	list-style:none;
+	background-color: gray;
+
+}
+
+
+
+nav ul li{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0.5em 0.5em;
+	margin: 0 5%;
+
+	
+}
+
+nav ul li:last-of-type{
+	margin-left: auto;
+}
+
+main {
+margin: 0 3%;
+}
+
+main > img{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+section:first-of-type div{
+display: flex;
+justify-content: space-between;
+background-color: #247d8f;
+padding: 0 0.7em;
+color: white;
+padding: 10px;
+}
+
+main section {
+display: flex;
+flex-direction: column;
+}
+
+main section ul li{
+	display: grid;
+	grid-template-areas: 1 / 1 / 3 / 4;
+	grid-template: 50px 50px 50px / 75px 300px
+}
+
+section ul li img{
+grid-column: 1 / 2;
+grid-row: 1 / 4;
+height: 100px;
+}
+
+section ul h4{
+grid-column 2 / 3;
+grid-row: 1 / 2;
+}
+
+section ul p:nth-of-type(1){
+grid-column: 2 / 3;
+grid-row: 2 / 3
+}
+
+section ul p:nth-of-type(2){
+grid-column: 2 / 3;
+grid-row: 3 / 4;
+}
+  </details>
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -323,12 +553,8 @@ en hoe het eruit ziet:
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  
+  Ik heb uit de meeting gehaald dat ik gewoon een div mag gebruiken voor de blokjes binnen het " hot update"  gedeelte. Hierdoor wordt alles met flexbox op orde zetten   een stuk makkelijker. Ook heb ik hulp gekregen met zorgen dat de manga plaatjes eindelijk binnen de blokjes vallen met gebruik van aspect ratios en object-fit.
 
 </details>
 
