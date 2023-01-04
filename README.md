@@ -602,7 +602,7 @@ aan te klikken is.
 ## Voortgang 3 (week 4)
 
 <details>
-  <summary> Ik heb deze week de selectors van mijn site gefixt en door de hulp van het vorige voortgangsproces mijn site net zo gekregen als het origineel eruit ziet. Ik ben hier erg blij mee want aan het begin van dit blok kon ik dit nog echt niet. Alleen ben ik er achter gekomen dat mijn site als ik een website window aanpas naar de grote van een telefoon scherm het er goed uitziet, maar als ik in f12 het knopje aan klik om de site op de proporties van een telefoon scherm te zetten alles heel klein wordt. Op mijn telefoon zien dingen er al helemaal anders uit</summary>
+  <summary> Ik heb deze week de selectors van mijn site gefixt en door de hulp van het vorige voortgangsproces mijn site net zo gekregen als het origineel eruit ziet. Ik ben hier erg blij mee want aan het begin van dit blok kon ik dit nog echt niet. Alleen ben ik er achter gekomen dat mijn site als ik een website window aanpas naar de grote van een telefoon scherm het er goed uitziet, maar als ik in f12 het knopje aan klik om via DevTools de site op de proporties van een telefoon scherm te zetten alles heel klein wordt. Op mijn telefoon zien dingen er al helemaal anders uit</summary>
 
   ### Stand van zaken
   De site ziet er nu goed uit. Ik ben tevreden met mijn html en css. Maar met javascript de light modus maken is nog niet helemaal gelukt. Ook ziet de site er vreemd uit met de f12 modus. Online heb ik gelezen dat ik dit misschien met media quiery kan fixen dus daar ga ik in de meeting over vragen.
@@ -619,7 +619,7 @@ aan te klikken is.
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
- 1. Inplaats van media quiery kan ik gewoon met viewports de grote verandering fixen.
+ 1. Inplaats van media quiery kan ik dingen op mijn site aanpassen zodat ze wel er goed uitzien in de f12 modus. Dit is alleen lastig omdat mijn livepreview er anders uitziet.
  2. Ik heb wat advies gekregen om mijn selectors te verbeteren. 
  3. Op de telefoon van de student assistent zien dingen er wel gewoon normaal uit. Het ligt aan mijn telefoon.
 
@@ -632,30 +632,30 @@ aan te klikken is.
 ## Eindgesprek (week 5)
 
 <details>
-  <summary>Ik heb de 2e pagina nog niet af, ook is de lightmode me nog niet gelukt. Hierdoor weet ik dat ik sowieso oet herkansen. Wel kan ik de feedback gebruiken.</summary>
+  <summary>Ik heb de 2e pagina nog niet af, ook is de lightmode me nog niet gelukt. Hierdoor weet ik dat ik sowieso moet herkansen. Wel kan ik de feedback gebruiken.
+Ik heb een aantal dingen aan de header aangepast zodat deze op telefoon/in de f12 telefoon modus er beter uitziet. Ook heb ik voor het eindgesprek heb ik nog een form gemaakt die op de originele site staat en de feedback van het vorige gesprek om mijn selectors nog duidelijker te maken.</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
  Nog niet af
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Ik heb veel over flexbox en positionering geleerd. Eindelijk kan ik dingen een beetje normaal op hun plek zetten zoals ik in mijn hoofd heb. 
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik heb veel over flexbox en positionering, en css in het algemeen geleerd. Eindelijk kan ik dingen een beetje normaal op hun plek zetten zoals ik in mijn hoofd heb.
+Dit is hoe mijn pagina er nu uitziet. Het is me nog niet gelukt om te zorgen dat alles er niet zo klein uitziet in telefoon modus.
+	
+  <img src="readme-images/siteiendgesprek.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
-</details>
+  Het werk is nog niet af. 
+Ik heb de feedback gekregen dat ik niet alles manually van grote hoef te veranderen, maar dat ik met viewports dit probleem gewoon kan oplossen.
+Om een goede site te maken moet ik verder natuurlijk nog de 2e pagina maken, het formulier kloppende labels geven en deze koppelen aan de input zodat je makkelijker het input veld met je muis kan selecteren en de screenreader goed voorleest water ingeput moet worden bij elk veld. Daarnaast kan ik nog een valid state voor de email toevoegen, transitions aan de verschillende states geven en een paar saemantische dingen fixen zoals de button om naar lightmode te veranderen niet last of type maken. Ook heb ik feedback gehad over hoe ik deze button wel kan laten werken.
 
 
 
 
 
 ## Bronnenlijst
-
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
