@@ -574,27 +574,24 @@ grid-row: 3 / 4;
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+ Screen reader werkt op de orginele site niet super goed.
+ Op mijn versie van de site hebben alle plaatjes alt text en worden de meeste dingen goed uitgesproken, maar soms leest het apparaat nogsteeds een lijn code voor.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+Ik moet de juiste labels aan sommige van mijn invoer velden toevoegen.
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Met muis en toetsenbord werkt nauwelijks op de originele site omdat de selector compleet onzichtbaar is.
+  Op mijn versie van de site werkt muis en toetsenbord prima, omdat ik de focus state heel duidelijk heb gemaakt met kleuren die bij de site passen.
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+ Met elastiekjes is de originele site prima te navigeren.
+ Mijn site lijkt erg op de originele site dus hiervoor is niet veel anders. Wel kan bij beide de top navigatie misschien iets groter zodat het makkelijker
+aan te klikken is.
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De site heeft redelijk hoog contrast uitzichzelf dus is het met de meeste visuele beperkingen prima te zien. Sommige tekst is licht grijs op wit wat wel lastig te zien is.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Op mijn eigen versie van de site heb ik de tekst zwart gemaakt. Zwart op wit nis namelijk gewoon goed te lezen.
 
 </details>
 
@@ -605,10 +602,10 @@ grid-row: 3 / 4;
 ## Voortgang 3 (week 4)
 
 <details>
-  <summary>uitwerken voor 3e voortgang</summary>
+  <summary> Ik heb deze week de selectors van mijn site gefixt en door de hulp van het vorige voortgangsproces mijn site net zo gekregen als het origineel eruit ziet. Ik ben hier erg blij mee want aan het begin van dit blok kon ik dit nog echt niet. Alleen ben ik er achter gekomen dat mijn site als ik een website window aanpas naar de grote van een telefoon scherm het er goed uitziet, maar als ik in f12 het knopje aan klik om de site op de proporties van een telefoon scherm te zetten alles heel klein wordt. Op mijn telefoon zien dingen er al helemaal anders uit</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  De site ziet er nu goed uit. Ik ben tevreden met mijn html en css. Maar met javascript de light modus maken is nog niet helemaal gelukt. Ook ziet de site er vreemd uit met de f12 modus. Online heb ik gelezen dat ik dit misschien met media quiery kan fixen dus daar ga ik in de meeting over vragen.
 
 
   ### Agenda voor meeting
@@ -622,10 +619,9 @@ grid-row: 3 / 4;
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+ 1. Inplaats van media quiery kan ik gewoon met viewports de grote verandering fixen.
+ 2. Ik heb wat advies gekregen om mijn selectors te verbeteren. 
+ 3. Op de telefoon van de student assistent zien dingen er wel gewoon normaal uit. Het ligt aan mijn telefoon.
 
 </details>
 
@@ -636,14 +632,14 @@ grid-row: 3 / 4;
 ## Eindgesprek (week 5)
 
 <details>
-  <summary>uitwerken voor eindgesprek</summary>
+  <summary>Ik heb de 2e pagina nog niet af, ook is de lightmode me nog niet gelukt. Hierdoor weet ik dat ik sowieso oet herkansen. Wel kan ik de feedback gebruiken.</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+ Nog niet af
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb veel over flexbox en positionering geleerd. Eindelijk kan ik dingen een beetje normaal op hun plek zetten zoals ik in mijn hoofd heb. 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
