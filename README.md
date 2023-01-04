@@ -79,7 +79,7 @@ Het is makkelijk om de html elementen de juiste namen en dat soort dingen te gev
 
 De tab navigatie selecteert dingen die niet te zien zijn. Ook is de selector niet super duidelijk. Daarnaast is de volgorde waarin de tabselectie gaat niet super logisch, zo gaat het soms menus in die nog niet geopend zijn inplaats van naar de volgende item in het navigatie menu.
 
-Een oplossing zou zijn de code semantisch correct maken. 
+Een oplossing zou zijn de code semantisch correct maken door de juiste selector commands geven aan de items die in een uitklap menu staan (zodat je er niet doorheentabbed zonder dat deze opengaat) en met de focus selector command de selector duidelijker zichtbaar te maken. Als laatst kan je in de code gewoon elk selecteerbaar ding in een logische volgorde van boven naar benden in je code zetten zodat je met door tabben niet halverwegen van het ene menu naar het andere menu springt.
 
 
 
@@ -92,6 +92,9 @@ Een makkelijke oplossing zou zijn om alle menutjes gewoon wat grooter te maken. 
 Met een visuele beperking zijn alle kleinere menus al heel snel onleesbaar. De darktheme van de site werkt wel prima en er is ook genoeg contrast voor kleure blinde mensen.
 
 De menus moeten gewoon wat groter gemaakt worden.
+Hier zie je dat ik met een van de visuele beperking brillen op de site aan het lezen ben:
+<img src="readme-images/usabilitytest1.jpg" width="375px" alt="Foto van tico met en bril die haar zicht beperkt">
+
 
 Achteraf blijkt dat de site op telefoon en het vormaat " telefoon" op computer compleet verschillend zijn. Dit en dat de support tools de site breken hebben ervoor gezorgd dat ik maar van site ben verandert (op 17/11/2022).
 
@@ -107,11 +110,11 @@ Achteraf blijkt dat de site op telefoon en het vormaat " telefoon" op computer c
   ### de hele pagina: 
   <img src="readme-images/mangaseebreakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  ### dynamisch deel pagina 1, een menu om verschillende kleur modes aan te zetten. Ik ga hiermee een lightmode, darkmode en misschien nog eeen 
+high contrast modes mee maken: 
+  <img src="readme-images/screenshotdynamischdeel.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+
 
 </details>
 
@@ -565,7 +568,7 @@ grid-row: 3 / 4;
 ## Toegankelijkheidstest 2/2 (week 4)
 
 <details>
-  <summary>uitwerken na test in 8e werkgroep</summary>
+  <summary>Ik heb de mangasee site getest op usability en vergeleken met mijn eigen site.</summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
