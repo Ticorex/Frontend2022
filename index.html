@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
@@ -10,10 +11,11 @@
     
      <!--header waar in het logo, de zoek balk en het navigatie menu moeten zitten -->
     <header> 
-        <h1></h1>
+        <h1>
         <a href="index.html">
         <img src="images/logoms.png" alt="The Mangasee logo, depicting the word Manga in white and the word See in blue">
         </a>
+        </h1>
 
         <input type="text" placeholder="Quick Search.." >
         <nav> 
@@ -64,7 +66,6 @@
         <ul>
              
             <li>
-                <div>
                     <a href="index.html">
                      <img src="images/Kengan-Omega.jpg">
                       <div>
@@ -73,7 +74,6 @@
                          <p>3 hours ago</p>
                      </div> 
                     </a>
-                </div>
             </li>
             <li>
                 <div>
@@ -182,12 +182,12 @@
                <div>
                      <p>Login to your account to get notified of new releases</p>
                         
-                     <h4>Email adress</h4>
-                        <input type="email" placeholder="example@gmail.com" >
+                     <label for="email">Email adress</label>
+                        <input type="email" placeholder="example@gmail.com" name="email" id="email">
                        
 
-                        <h4>password</h4>
-                        <input type="password" placeholder="password" >
+                        <label for="password" >password</label>
+                        <input type="password" placeholder="password" id="password" >
                     
                         <button>Login</button>
                    
@@ -201,7 +201,7 @@
 
     </main>
     
-    
+    <script src="scripts/script.js"></script>
     
 </body>
 </html>
