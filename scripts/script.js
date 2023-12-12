@@ -1,15 +1,191 @@
 // JavaScript Document
 console.log("hi");
 
-//dit maakt de text " Night_mode_knop" een variable
-var Night_mode_knop;
+var positie = 0;
 
-//dit zegt welk stukje html de variable representeert
-Night_mode_knop = document.querySelector("button:last-of-type");
+var buttonLinks = document.querySelector('section:nth-of-type(2) button:nth-of-type(1)');
+var buttonRechts = document.querySelector('section:nth-of-type(2) button:nth-of-type(2)');
+var deals = document.querySelector('section:nth-of-type(2) ul');
 
-// als je night_mode_knop, in dit geval "button:last-of-type" aan klikt, runt de functie "Nightmode"
-Night_mode_knop.addEventListener("click", Nightmode)
 
-function Nightmode(){
-    Night_mode_knop.classlist.toggle("white");
+var buttonLinks2 = document.querySelector('section:nth-of-type(3) button:nth-of-type(1)');
+var buttonRechts2 = document.querySelector('section:nth-of-type(3) button:nth-of-type(2)');
+var categorie = document.querySelector('section:nth-of-type(3) ul');
+
+
+// JavaScript Document
+
+console.log("Carousel Initialized");
+
+function initializeCarousel(containerSelector) {
+    const carouselContainer = document.querySelector(containerSelector);
+    const buttonLeft = carouselContainer.querySelector('button:nth-of-type(1)');
+    const buttonRight = carouselContainer.querySelector('button:nth-of-type(2)');
+    const itemList = carouselContainer.querySelector('ul');
+    const items = itemList.querySelectorAll('li');
+
+    if (items.length === 0) {
+        return;
+    }
+
+    const gridStyle = window.getComputedStyle(itemList);
+    const gridGap = parseInt(gridStyle.gap);
+    const itemWidth = items[0].offsetWidth;
+    let currentPosition = 0;
+
+    function updateCarousel() {
+        const totalItemWidth = itemWidth + gridGap;
+        const visibleItems = Math.floor(carouselContainer.offsetWidth / totalItemWidth);
+        const maxPosition = Math.max(0, items.length - visibleItems);
+        currentPosition = Math.min(Math.max(currentPosition, 0), maxPosition);
+        const transformValue = -currentPosition * totalItemWidth;
+
+        itemList.style.transform = `translateX(${transformValue}px)`;
+    }
+
+    function moveLeft() {
+        currentPosition -= 1;
+        updateCarousel();
+    }
+
+    function moveRight() {
+        currentPosition += 1;
+        updateCarousel();
+    }
+
+    buttonLeft.addEventListener('click', moveLeft);
+    buttonRight.addEventListener('click', moveRight);
+
+    // Handle browser resize
+    window.addEventListener('resize', () => {
+        updateCarousel(); // Recalculate the carousel's position on resize
+    });
 }
+
+// Initialize carousels
+initializeCarousel('section:nth-of-type(2)');
+initializeCarousel('section:nth-of-type(3)');
+
+// Source: Frank van der Velde, Leerlingnummer: 500874906 
+// https://www.linkedin.com/in/frankvdv1998/
+
+
+window.onresize = openDetails;
+
+const details = document.querySelectorAll ('details');
+
+function openDetails(event) {
+    const vpWidth = window.innerWidth
+
+    if (vpWidth > 560) {
+        details.forEach( detail => {
+            detail.open = true;
+        });
+    }
+    else {
+        details.forEach( detail => {
+            detail.open = false;
+        });
+    }
+} 
+
+
+//Dit is wat ik zelf had samen met de student assistent, maar dat was niet goed responsive als het
+//scherm grooter werd.
+// function moveListL(){
+    
+//  if (positie === 60){
+//         positie = 0
+
+//     } else if (positie === 120){
+//         positie = 60
+    
+//     } else if (positie === 180){
+//         positie = 120
+
+//     } else if (positie === 200){
+//         positie = 180
+        
+//     }
+
+//     deals.style.translate = `-${positie}%`;
+// }
+
+// function moveListR(){
+    
+
+//     if (positie === 0){
+//         positie = 60
+
+//     } else if (positie === 60){
+//         positie = 120
+
+//     } else if (positie === 120){
+//         positie = 180
+    
+//     } else if (positie === 180){
+//         positie = 180
+
+//     }
+
+//     deals.style.translate = `-${positie}%`
+
+// }
+
+// function moveList2L(){
+    
+//     if (positie === 200){
+//            positie = 100
+   
+//        } else if (positie === 100){
+//            positie = 0
+       
+//        } 
+   
+//        categorie.style.translate = `-${positie}%`;
+//    }
+
+// function moveList2R(){
+    
+
+//     if (positie === 0){
+//         positie = 100
+
+//     } else if (positie === 100){
+//         positie = 200
+
+//     } 
+
+//     categorie.style.translate = `-${positie}%`
+
+// }
+
+// buttonLinks.addEventListener('click', moveListL);
+// buttonRechts.addEventListener('click', moveListR);
+
+// buttonLinks2.addEventListener('click', moveList2L);
+// buttonRechts2.addEventListener('click', moveList2R);
+
+
+// window.onresize = openDetails;
+
+// const details = document.querySelectorAll ('details');
+
+// function openDetails(event) {
+//     const vpWidth = window.innerWidth
+
+//     if (vpWidth > 560) {
+// 		details.forEach( detail => {
+// 			detail.open = true;
+// 		});
+// 	}
+// 	else {
+// 		details.forEach( detail => {
+// 			detail.open = false;
+// 		});
+// 	}
+// } 
+
+
+
+

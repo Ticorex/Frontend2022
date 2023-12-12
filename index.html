@@ -1,207 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="nl">
+	
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles/style.css">
+	<meta charset="UTF-8">
+	<meta name="author" content="jouw naam">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Bol</title>
+	
+	<link href="styles/style.css" rel="stylesheet">
+	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+	
+	
 </head>
 
-<body>
-    
-     <!--header waar in het logo, de zoek balk en het navigatie menu moeten zitten -->
-    <header> 
-        <h1>
-        <a href="index.html">
-        <img src="images/logoms.png" alt="The Mangasee logo, depicting the word Manga in white and the word See in blue">
-        </a>
-        </h1>
-
-        <input type="text" placeholder="Quick Search.." >
-        <nav> 
-        <ul>
-
-             <li>
-                 <a href="index.html" ><img src="images/homeicon.png" alt="Home button"></a>
-             </li>
-        
-             <li>
-                 <a href= "index.html">
-                 <img src="images/folder-3-16.png" alt="manga folder">
-                 </a>
-             </li>
-             
-             <li>
-                <a href="index.html">
-                  <img src="images/zoekicon.png" alt="link naar manga navigatie">
-                </a>
-             </li>
-             
-             <li>
-                <a href="index.html">
-                 <img src="images/chat-4-16.png" alt="Chat met andere gebruikers">
-                </a>
-             </li>
-             
-             <li>
-                <a href="index.html">
-                 Login
-                </a>
-             </li>
-         </ul>
-        </nav>
-    
-    </header>
  
- <main>
-        <img src="images/berserk.jpg" alt="promotional art for the manga Berserk">
-        
-     <section>
+<body>
+	<header>
+		<nav>
+			<h1 aria-label="Welkom op de homepage van bol"><img src="images/bol.png" alt="x"></h1>
+			
+			<button aria-label="Menu button"><img src="images/menu.png" alt=""></button>    
+				
+			<ul>
+					<li> <a href="#" lang="en" aria-label="Inloggen bij uw account"><img src= 'images/user.png' alt=""></a></li> 
+					<li> <a href="#" lang="en" aria-label="favoriete producten lijst"><img src= 'images/heart (1).png' alt=""> </a></li> 
+					<li> <a href="#" lang="en" aria-label="winkelwagen"><img src= 'images/shopping-cart (1).png' alt=""></a></li> 
+			</ul>
 
-         <div>
-         <h2>Hot Update</h2> 
-         <a><p>more</p></a>
-         </div>
+			<form>
+				<label for="zoeken"></label>
+				<input type="search" placeholder="Waar ben je naar opzoek?">
+			</form>
+		</nav> 
+	 
+	</header>
 
-        <ul>
-             
-            <li>
-                    <a href="index.html">
-                     <img src="images/Kengan-Omega.jpg">
-                      <div>
-                         <p>Kengan Omega</p>
-                         <p>Chapter 185</p>  
-                         <p>3 hours ago</p>
-                     </div> 
-                    </a>
-            </li>
-            <li>
-                <div>
-                   <a href="index.html">
-                    <img src="images/The-Beginning-After-The-End.jpg">
-                      <div>
-                        <p>The Beginning After the End</p>
-                        <p>Chapter 170</p>
-                        <p>11 hours ago</p>
-                     </div>
-                   </a>
-                </div>
-           </li>
-           <li>
-            <div>
-                <a href="index.html">
-                 <img src="images/Chainsaw-Man.jpg">
-                  <div>
-                     <p>Chainsaw Man</p>
-                     <p>Chapter 113</p>  
-                     <p>12 hours ago</p>
-                 </div> 
-                </a>
-                <div>
-                    <a href="index.html">
-                     <img src="images/Komi-san-Wa-Komyushou-Desu.jpg">
-                      <div>
-                         <p>Komi can't communicate</p>
-                         <p>Chapter 383</p>  
-                         <p>12 hours ago</p>
-                     </div> 
-                    </a>
-                </div>
-            </div>
-           </li>
-         
-         </ul>
-     </section>
+	<main>
+		<section>
+	 		<h2 class="visually-hidden">Black Friday week</h2>
+	 		<img src="images/blackfridayheader.jpg" alt="banner met blackfriday week kortings aanbiedingen">
+	 		
+		</section>
+	
+		<section>
+			<h2 class="visually-hidden">Momentele aanbiedingen</h2>
+			<ul>
+				<li><a href="#"><img src="images/filmsgamesmuziek.jpg" alt ='Vordeel op films en muziek'></a></li>
+				<li><a href="#"><img src="images/game_accessoires.jpg" alt ='Vordeel op game accessoires'></a></li>
+				<li><a href="#"><img src="images/games.jpg" alt ='Vordeel op games'></a></li>
+				<li><a href="#"><img src="images/SDA_kitchen_sint_keukenapparaten.jpg" alt ='Vordeel op keuken apparatuur'></a></li>
+			</ul>
+			<button aria-label="button om naar links te scrollen door de aanbiedingen"><img src='images/left-arrow.png'></button>
+			<button aria-label="button om naar rechts te scrollen door de aanbiedingen"><img src='images/right-arrow.png'></button>
+		</section>
+	
 
-     <section>
+		<section>
+			<h2>Kies een categorie</h2>
+			<ul>
+				<li><a href="Boeken.html"><h3>Boeken</h3><img src="images/boeken.jpg"></a></li>
+				<li><a href="#"><h3>Elekrtonica</h3><img src="images/elektronica.jpg"></a></li>
+				<li><a href="#"><h3>Speelgoed</h3><img src="images/speelgoed.jpg"></a></li>
+				<li><a href="#"><h3>Wonen</h3><img src="images/wonen.jpg"></a></li>
+				<li><a href="#"><h3>Baby</h3><img src='images/baby.jpg'></a></li>
+				<li><a href="#"><h3>Koken & tafelen</h3><img src="images/koken.jpg"></a></li>
+				<li><a href="#"><h3>Beauty</h3><img src="images/Beauty.jpg"></a></li>
+				<li><a href="#"><h3>Sport</h3><img src="images/Sport.jpg"></a></li>
+				<li><a href="#"><h3>Film</h3><img src="images/film.jpg"></a></li>
+			</ul>
+			<button aria-label="button om naar links te scrollen door de aanbiedingen"><img src='images/left-arrow.png'></button>
+			<button aria-label="button om naar rechts te scrollen door de aanbiedingen"><img src='images/right-arrow.png'></button>
+		</section>
+	
+ <!--
+	<section>
+		<h2>bekijk onze topdeals</h2>
+		<ul>
+			<li><img src=''></li>
+			<li><img src=""></li>
+			<li><img src=""></li>
+			<li><img src=""></li>
+		</ul>
+	</section>
 
-        <div>
-        <h2>Latest Chapter</h2> 
-        <a><p>more</p></a>
-        </div>
+	<section>
+		<h2>Dag Deals</h2>
+			<ul>
+				<li></li>
+				<li></li>
+			</ul>
+	</section>
+-->
+	<footer>
+		<h2>Ontdek alles bij bol.com</h2>
+		<details>
+			<summary>Boeken</summary>
+			 <ul>
+				<li>Boeken</li>
+				<li>Nederlandstalige boeken</li>
+				<li>Engelse boeken</li>
+			 </ul>
+		</details>
+		<details>
+			<summary>Muziek, Films en Games</summary>
+			 <ul>
+				<li>Muziek</li>
+				<li>DVD</li>
+				<li>Blu-ray</li>
+			 </ul>
+		</details>
+		<details>
+			<summary>Sport, Outdoors, Reizen</summary>
+			 <ul>
+				<li>Sport</li>
+				<li>Sportkleding</li>
+				<li>Kamperen & outdoors</li>
+			 </ul>
+		</details>
+		<details>
+			<summary>Speelgoed & Hobby</summary>
+			 <ul>
+				<li>Computer</li>
+				<li>Telefoon</li>
+				<li>Tablets</li>
+			 </ul>
+		</details>
+		<details>
+			<summary>Cadeau & Inspiratie</summary>
+			 <ul>
+				<li>Muziek</li>
+				<li>DVD</li>
+				<li>Blu-ray</li>
+			 </ul>
+		</details>
+		<details>
+			<summary>Sport, Outdoors, Reizen</summary>
+			 <ul>
+				<li>Sport</li>
+				<li>Sportkleding</li>
+				<li>Kamperen & outdoors</li>
+			 </ul>
+		</details>
 
-       <ul>
-            
-           <li>
-               <div>
-                   <a href="index.html">
-                    <img src="images/Kengan-Omega.jpg">
-                     <div>
-                        <p>Kengan Omega</p>
-                        <p>Chapter 185</p>  
-                        <p>3 hours ago</p>
-                    </div> 
-                   </a>
-               </div>
-           </li>
-           <li>
-               <div>
-                  <a href="index.html">
-                   <img src="images/The-Beginning-After-The-End.jpg">
-                     <div>
-                       <p>The Beginning After the End</p>
-                       <p>Chapter 170</p>
-                       <p>11 hours ago</p>
-                    </div>
-                  </a>
-               </div>
-          </li>
-          <li>
-           <div>
-               <a href="index.html">
-                <img src="images/Chainsaw-Man.jpg">
-                 <div>
-                    <p>Chainsaw Man</p>
-                    <p>Chapter 113</p>  
-                    <p>12 hours ago</p>
-                </div> 
-               </a>
-               <div>
-                   <a href="index.html">
-                    <img src="images/Komi-san-Wa-Komyushou-Desu.jpg">
-                     <div>
-                        <p>Komi can't communicate</p>
-                        <p>Chapter 383</p>  
-                        <p>12 hours ago</p>
-                    </div> 
-                   </a>
-               </div>
-           </div>
-          </li>
-        
-        </ul>
-    </section>
 
-     <section>
+	</footer>
 
-        <div>
-        <h3>Subscription Feed</h3>
-        </div>
+</main>
 
-           
-               <div>
-                     <p>Login to your account to get notified of new releases</p>
-                        
-                     <label for="email">Email adress</label>
-                        <input type="email" placeholder="example@gmail.com" name="email" id="email">
-                       
-
-                        <label for="password" >password</label>
-                        <input type="password" placeholder="password" id="password" >
-                    
-                        <button>Login</button>
-                   
-               </div>
-          
-               <button>colorchangetest</button>
-        
-        
-    </section>
-      
-
-    </main>
-    
-    <script src="scripts/script.js"></script>
-    
+	<script defer src="scripts/script.js"></script>
 </body>
+	
 </html>
+ 
