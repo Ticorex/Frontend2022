@@ -69,8 +69,10 @@ initializeCarousel('section:nth-of-type(3)');
 // Source: Frank van der Velde, Leerlingnummer: 500874906 
 // https://www.linkedin.com/in/frankvdv1998/
 
-
-window.onresize = openDetails;
+window.onresize = function() {
+    removeClass();
+    openDetails();
+};
 
 const details = document.querySelectorAll ('details');
 
@@ -88,6 +90,19 @@ function openDetails(event) {
         });
     }
 } 
+
+
+function removeClass() {
+    var vpWidth = window.innerWidth;
+    
+    var hiddenElements = document.querySelectorAll('section:nth-of-type(4) ul li button:nth-of-type(-n+4)')
+
+    if (vpWidth < 560) {
+        hiddenElements.forEach(function(element) {
+            element.classList.add('hidden');
+        });
+    }
+}
 
 
 //Dit is wat ik zelf had samen met de student assistent, maar dat was niet goed responsive als het
